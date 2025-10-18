@@ -4,22 +4,19 @@
 
 .container {
   max-width: 600px;
-  width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .list-group-item {
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .list-group-item:hover {
-  background-color: rgba(204, 204, 204, 0.5);
+  background-color: rgba(230, 230, 230, 0.5);
 }
 
 img {
   cursor: pointer;
-  transition: all 0.5s;
+  transition: 0.3s;
 }
 
 img:hover {
@@ -51,6 +48,17 @@ img:hover {
   display: none;
 }
 
-.complated {
-  opacity: 0.5;
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.time-container {
+  font-size: 20px;
+  color: #666;
+}
+
+header h4 {
+  font-weight: 500;
+  color: #555;
 }
